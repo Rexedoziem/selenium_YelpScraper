@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webscraping:
+    image: webscraping
+    build:
+      context: .
+      dockerfile: ./Dockerfile
